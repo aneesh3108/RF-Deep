@@ -1,0 +1,49 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local-only helper scripts — not shared
+local_scripts/
+
+# Large generated artifacts and caches
+data
+data/
+results/*
+!results/README.md
+figures_tmlr/
+figures_tmlr_rebuttal/
+pickle_data/*
+!pickle_data/README.md
+metadata_info/*
+!metadata_info/README.md
+!metadata_info/scanner_meta_info_LRad.xlsx
+!metadata_info/ibsi1.json
+!metadata_info/radiomics_mapping.csv
+jsons/*
+!jsons/README.md
+radiomics_features/*
+!radiomics_features/README.md
+excelrecords/*
+!excelrecords/README.md
+
+# Model weights and bulky binaries
+models/finetuned_weights/
+models/pretrained_weights/
+*.pth
+*.pt
+*.out.tfevents.*
+events.out.tfevents.*
+
+# Local environment files
+.env
+.env.*
+
+# Office temp files
+~$*.pptx
+~$*.xlsx
+~$*.docx
+/figures
