@@ -1,5 +1,6 @@
 # RF-Deep
 ### Tumor-anchored deep feature random forests for out-of-distribution detection in lung cancer segmentation
+[![TMLR](https://img.shields.io/badge/TMLR%202026-Paper-blue)](https://openreview.net/pdf/7f251a3aa132bc70c737dff687e3be728f1e96c8.pdf)
 
 <p align="center">
   <img src="docs/readme_assets/figure1_outline.png" alt="Figure 1 Method Outline" width="90%">
@@ -128,10 +129,11 @@ We sincerely thank the authors of [Swin UNETR](https://github.com/Project-MONAI/
 ## Citation
 
 ```bibtex
-@article{rangnekar2025tumor,
+@article{rangnekar2026tumoranchored,
   title={Tumor-anchored deep feature random forests for out-of-distribution detection in lung cancer segmentation},
-  author={Rangnekar, Aneesh and Veeraraghavan, Harini},
-  journal={arXiv preprint arXiv:2512.08216},
-  year={2025}
+  author={Aneesh Rangnekar and Harini Veeraraghavan},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2026}
 }
 ```
