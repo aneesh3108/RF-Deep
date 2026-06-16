@@ -8,7 +8,7 @@ Conventions:
 - rows are scan-level feature records
 - shorthand/pretty-name mapping is handled through [`metadata_info/radiomics_mapping.csv`](../metadata_info/radiomics_mapping.csv)
 
-Primary producers and consumers:
+Relevant code:
 
-- producer: [`scripts/radiomics_analysis.py`](../scripts/radiomics_analysis.py)
-- figure scripts under [`paper_figures/`](../paper_figures)
+- [`scripts/radiomics_analysis.py`](../scripts/radiomics_analysis.py): writes radiomics CSVs
+- figure scripts under [`paper_figures/`](../paper_figures): render radiomics-based analyses

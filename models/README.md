@@ -1,6 +1,6 @@
 # Models
 
-`models/` contains the architecture definitions used by RF-Deep and related segmentation experiments.
+`models/` contains the architecture definitions for RF-Deep and related segmentation experiments.
 
 Contents:
 

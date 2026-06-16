@@ -1,8 +1,8 @@
 # JSON Manifests
 
-`jsons/` stores MONAI-style dataset manifests used by feature extraction, benchmarking, and radiomics pipelines.
+`jsons/` stores MONAI-style dataset manifests for feature extraction, benchmarking, and radiomics pipelines.
 
-These manifests decouple the codebase from machine-specific file paths and provide the shared scan lists used by feature extraction, inference, and analysis scripts.
+These manifests decouple the codebase from machine-specific file paths and provide shared scan lists for feature extraction, inference, and analysis scripts.
 
 ## Example Structure
 
@@ -29,7 +29,7 @@ These manifests decouple the codebase from machine-specific file paths and provi
 - current shared manifests primarily use the `validation` split key
 - paths may be stored with root tags such as `DATA_ROOT::...` or `RESULTS_ROOT::...`, which are resolved through [`project_paths.py`](../project_paths.py)
 
-Generated or refreshed manifests are usually created by [`scripts/make_json.py`](../scripts/make_json.py).
+[`scripts/make_json.py`](../scripts/make_json.py) usually handles manifest generation and refreshes.
 
 ## Practical Notes
 

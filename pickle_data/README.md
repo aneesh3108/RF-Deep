@@ -5,15 +5,12 @@
 Conventions:
 
 - filenames typically follow `{model}_size{img_size}_featvec.pkl`
-- contents are per-dataset feature dictionaries consumed by the RF-Deep, Mahalanobis, SHAP, and ablation workflows
+- files contain per-dataset feature dictionaries for RF-Deep, Mahalanobis, SHAP, and ablation experiments
 
-Primary producer:
+Relevant code:
 
-- [`extract_features.py`](../extract_features.py)
-
-Primary consumers:
-
-- [`ood_rfdeep.py`](../ood_rfdeep.py)
-- [`ood_maha.py`](../ood_maha.py)
-- [`ood_utils.py`](../ood_utils.py)
+- [`extract_features.py`](../extract_features.py): writes feature caches
+- [`ood_rfdeep.py`](../ood_rfdeep.py): RF-Deep experiments
+- [`ood_maha.py`](../ood_maha.py): Mahalanobis experiments
+- [`ood_utils.py`](../ood_utils.py): shared feature loading helpers
 - figure scripts under [`paper_figures/`](../paper_figures)
